@@ -1,0 +1,27 @@
+(footprint "Metal_Dome_Cross_6mm_Round" (version 20210108) (generator pcbnew) (layer "F.Cu")
+  (tedit 6004E410)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 6e767256-7a61-4ae3-b375-a584493c79ae)
+  )
+  (fp_text value "Metal_Dome_Cross_6mm_Round" (at 0 1 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 200c7516-ca1f-42b5-9912-b0f89fb5aff5)
+  )
+  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 6d9a96f0-f7b1-416d-b4e2-c4285198fd5b)
+  )
+  (pad "1" thru_hole circle (at 0 -0.7) (size 0.7 0.7) (drill 0.41) (layers *.Cu *.Mask) (tstamp 9460924a-4973-40a5-85e1-e3d795b0eb1b))
+  (pad "1" smd circle (at 0 0) (size 2.54 2.54) (layers "F.Cu" "F.Mask") (tstamp d6e70273-9993-4535-95bd-28f2cac5dd67))
+  (pad "2" smd custom (at 2.94 0) (size 0.88 0.88) (layers "F.Cu" "F.Mask")
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_circle (center -2.94 0) (end 0 0)       (width 0.88)      )
+    ) (tstamp f4732d40-0ca0-4bae-8987-a669f9f77ec2))
+  (model "${KIPRJMOD}/modules/packages3D/Button_Switch_SMD.3dshapes/Metal_Dome_Cross_6mm.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 45))
+  )
+)
