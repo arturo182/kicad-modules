@@ -1,0 +1,26 @@
+(footprint "Metal_Dome_5mm" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr smd)
+  (fp_text reference "REF**" (at 0 -3.61 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 6f65b463-a4aa-41a2-8b18-06e083ada471)
+  )
+  (fp_text value "Metal_Dome_5mm" (at 0 3.3 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 95d8d9d2-38e6-4962-9709-8a6744fc3aa2)
+  )
+  (fp_text user "${REF}" (at 0 -3.61 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 21e3c16a-8544-4f94-8d31-db295bad6a50)
+  )
+  (fp_circle (center 0 0) (end 2.44 0)
+    (stroke (width 0) (type solid)) (fill solid) (layer "F.Mask") (tstamp 0f150ef3-de0b-4744-99e5-5ea568676241))
+  (pad "1" thru_hole circle (at 0 -0.5) (size 0.6 0.6) (drill 0.41) (layers "*.Cu" "*.Mask") (tstamp 563ea449-5652-499c-96aa-e3149598d9fd))
+  (pad "1" smd circle (at 0 0) (size 2.03 2.03) (layers "F.Cu" "F.Mask") (tstamp 5d5f9d70-3666-4768-bd6a-1f2b0f34be3c))
+  (pad "2" smd custom (at 2.44 0 180) (size 0.88 0.88) (layers "F.Cu" "F.Mask")
+    (thermal_bridge_angle 45)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_circle (center 2.44 0) (end 4.88 0) (width 0.88) (fill none))
+    ) (tstamp a33748d3-d041-4105-99f7-792de610ccb2))
+)
