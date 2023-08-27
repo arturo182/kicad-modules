@@ -1,4 +1,4 @@
-(footprint "LTW-010DCG-SR-G" (version 20221018) (generator pcbnew)
+(footprint "LTW-010DCG-SR-G" (version 20230410) (generator pcbnew)
   (layer "F.Cu")
   (descr "LCSC C5175311")
   (attr smd)
@@ -47,9 +47,9 @@
   (fp_text user "REF**" (at 0 -1.4 unlocked) (layer "F.Fab") hide (tstamp f1eb8484-aa29-40b1-8673-b0503fd47406)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (pad "1" smd rect (at -1.585 0) (size 0.67 0.66) (layers "F.Cu" "F.Paste" "F.Mask")
+  (pad "1" smd rect (at -1.585 -0.085) (size 0.67 0.83) (layers "F.Cu" "F.Paste" "F.Mask")
     (thermal_bridge_angle 45) (tstamp d13fd5b9-9ec0-49ec-a758-2f13a311cb13))
-  (pad "2" smd rect (at 1.585 0) (size 0.67 0.66) (layers "F.Cu" "F.Paste" "F.Mask")
+  (pad "2" smd rect (at 1.585 -0.085) (size 0.67 0.83) (layers "F.Cu" "F.Paste" "F.Mask")
     (thermal_bridge_angle 45) (tstamp c5b94925-89cb-42fe-9517-6e1548fdf724))
   (model "${KIPRJMOD}/modules/packages3D/LED_SMD_Extra.3dshapes/LTW-010DCG.step"
     (offset (xyz 0 -0.2 0))
