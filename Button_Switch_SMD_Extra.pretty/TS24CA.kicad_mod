@@ -1,0 +1,229 @@
+(footprint "TS24CA"
+	(version 20240225)
+	(generator "pcbnew")
+	(generator_version "8.99")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.9 0)
+		(layer "F.SilkS")
+		(uuid "44d6f1ad-4729-4878-a03f-1952dd137c82")
+		(effects
+			(font
+				(size 1.143 1.143)
+				(thickness 0.152)
+			)
+		)
+	)
+	(property "Value" "TS24CA"
+		(at 0 2.55 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3ac5f12e-2f77-4d13-b1d3-d0e92550fb90")
+		(effects
+			(font
+				(size 1.143 1.143)
+				(thickness 0.152)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65dae33e-ab90-4484-b292-85c9211f1e65")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "63290a87-7c39-4cbd-9023-2a01c50e7522")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a0e0ab13-2a85-4429-8a7f-a44646c18039")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.3 -1.675)
+		(end 2.3 -1.675)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "10d1695a-7485-4024-a170-17b104983f1a")
+	)
+	(fp_line
+		(start -2.3 -1.537)
+		(end -2.3 -1.675)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "90b8ac5c-6613-4597-ae7d-73284dd48b88")
+	)
+	(fp_line
+		(start -1 -2.875)
+		(end -1 -1.675)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2561b2c7-3053-489d-a71a-9c0b8dc2a0a9")
+	)
+	(fp_line
+		(start -1 -2.875)
+		(end 1 -2.875)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d1949aa0-c1f7-4c4f-8716-91e08682c683")
+	)
+	(fp_line
+		(start -0.889 0.625)
+		(end 0.889 0.625)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fc1f5708-7b45-4eb1-be66-52773bd78001")
+	)
+	(fp_line
+		(start 1 -2.875)
+		(end 1 -1.675)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b1841f35-a326-4401-af65-779ea1fb9f5d")
+	)
+	(fp_line
+		(start 2.3 -1.675)
+		(end 2.3 -1.537)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b55680e0-e5de-43f8-9361-dfed5faa0f43")
+	)
+	(fp_circle
+		(center -0.85 -0.775)
+		(end -0.725 -0.775)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "e0fb92ff-b2c1-43d8-99d7-2e67984c3220")
+	)
+	(fp_circle
+		(center 0.85 -0.775)
+		(end 0.975 -0.775)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "b405cc5b-f874-43b2-a4b1-9daf9fcf8020")
+	)
+	(fp_rect
+		(start -3 -3.25)
+		(end 3 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "afdb94eb-9294-48bc-860a-5f47b14235a0")
+	)
+	(fp_rect
+		(start -2.2 -1.55)
+		(end 2.15 0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "40ca1b35-6fe2-42db-b320-38a128b70d3f")
+	)
+	(pad "" np_thru_hole circle
+		(at -0.85 -0.775)
+		(size 0.7 0.7)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(uuid "74d64754-90cc-4cd0-b4b4-235c4c4526ed")
+	)
+	(pad "" np_thru_hole circle
+		(at 0.85 -0.775)
+		(size 0.7 0.7)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(uuid "f11f422d-3451-403b-a827-170cec3fa824")
+	)
+	(pad "1" smd rect
+		(at -2.3 -0.775)
+		(size 0.9 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7f011459-6bff-4c6a-9294-147a6ec668ca")
+	)
+	(pad "2" smd rect
+		(at 2.3 -0.775 180)
+		(size 0.9 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "108c9821-9fc3-4972-9525-bebae86ec41a")
+	)
+	(pad "3" smd rect
+		(at -1.675 0.6625 180)
+		(size 1.2 1.075)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "08a5428b-b002-419e-94bd-37683a58e139")
+	)
+	(pad "4" smd rect
+		(at 1.675 0.6625 180)
+		(size 1.2 1.075)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d933a511-a8d2-48db-85d8-ba6d39039bc2")
+	)
+	(model "${KIPRJMOD}/modules/packages3D/Button_Switch_SMD.3dshapes/TS24CA.step"
+		(offset
+			(xyz 0 0.5 0.05)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
