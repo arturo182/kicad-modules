@@ -1,0 +1,224 @@
+(footprint "ZH-2P_1x02_P1.50mm_Horizontal"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "LCSC C2845424, C17700457, C2905014")
+	(property "Reference" "REF**"
+		(at 4 3.6 90)
+		(layer "F.SilkS")
+		(uuid "01562950-fd31-44f0-abac-6b92c068ebda")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(property "Value" "ZH-2P"
+		(at 0 6.6 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e3adecec-db7e-4567-897c-43b4efa635fe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5aad5ab0-a62a-47a9-939d-e440acbd667a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2310190944_chxunda-XD-ZH-2PWT_C17700457.pdf"
+		(at 0 4.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6343b409-4e90-459d-a2cd-fac34eb8f5d7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "860554d3-2f17-41e0-b215-3c63d36a4524")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.07 -2.35)
+		(end -2.25 -2.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "402ee4c0-a803-42fc-91b5-789e335e4222")
+	)
+	(fp_line
+		(start -3.07 0.625)
+		(end -3.07 -2.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "945ed528-b3d9-4592-8e5c-4fc8385c173d")
+	)
+	(fp_line
+		(start -3.07 3.75)
+		(end -3.07 2.675)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9d6993cd-9214-45df-b9a0-653777686e2e")
+	)
+	(fp_line
+		(start -2.25 -1.35)
+		(end -2.25 -2.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bf8c1220-d107-4179-adb5-93d4facd7677")
+	)
+	(fp_line
+		(start -2.25 -1.35)
+		(end -1.175 -1.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e592937c-f2d4-43d0-beb7-beb538092a5f")
+	)
+	(fp_line
+		(start -0.325 -1.35)
+		(end 0.325 -1.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cde2205c-8781-4042-8369-9f2cebbadb8e")
+	)
+	(fp_line
+		(start 1.175 -1.35)
+		(end 2.228 -1.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ed238337-919b-4fdd-8dd1-efea4f4369ba")
+	)
+	(fp_line
+		(start 2.228 -2.35)
+		(end 3.048 -2.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "407f0825-a1f5-49a6-8e5f-29e42c9438ce")
+	)
+	(fp_line
+		(start 2.228 -1.35)
+		(end 2.228 -2.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dc2be0e8-2b7e-44dc-9c02-99ab7a70c56f")
+	)
+	(fp_line
+		(start 3.048 -2.35)
+		(end 3.05 0.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "97e9460b-a2ef-42f3-b3be-582ec778ae4f")
+	)
+	(fp_line
+		(start 3.07 2.675)
+		(end 3.07 3.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5c4e6e19-1177-4140-8ec5-2b91aefdc227")
+	)
+	(fp_line
+		(start 3.07 3.75)
+		(end -3.07 3.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "368167cb-4bb0-4291-9a60-e72cb425329e")
+	)
+	(pad "1" smd rect
+		(at -0.75 -1.825)
+		(size 0.7 2.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "49c65097-53f4-4d23-915c-5b62b35079be")
+	)
+	(pad "2" smd rect
+		(at 0.75 -1.825)
+		(size 0.7 2.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a175a3d9-6b51-4f7d-8dc7-5e4c6df00b8e")
+	)
+	(pad "MP" smd rect
+		(at -2.7 1.65)
+		(size 1.1 1.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "79e6c8be-d6cd-4157-898a-d70f6c71ca4a")
+	)
+	(pad "MP" smd rect
+		(at 2.7 1.65)
+		(size 1.1 1.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "85437a4f-84c4-4fb6-9bb7-3c2a35d369da")
+	)
+	(model "${KIPRJMOD}/modules/packages3D/Connector.3dshapes/ZH-2P.step"
+		(offset
+			(xyz 0 -0.7 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
