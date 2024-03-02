@@ -67,7 +67,7 @@
 		(start -2.3 -1.675)
 		(end 2.3 -1.675)
 		(stroke
-			(width 0.254)
+			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -77,47 +77,47 @@
 		(start -2.3 -1.537)
 		(end -2.3 -1.675)
 		(stroke
-			(width 0.254)
+			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "90b8ac5c-6613-4597-ae7d-73284dd48b88")
 	)
 	(fp_line
-		(start -1 -2.875)
-		(end -1 -1.675)
-		(stroke
-			(width 0.254)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "2561b2c7-3053-489d-a71a-9c0b8dc2a0a9")
-	)
-	(fp_line
-		(start -1 -2.875)
-		(end 1 -2.875)
-		(stroke
-			(width 0.254)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "d1949aa0-c1f7-4c4f-8716-91e08682c683")
-	)
-	(fp_line
 		(start -0.889 0.625)
 		(end 0.889 0.625)
 		(stroke
-			(width 0.254)
+			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "fc1f5708-7b45-4eb1-be66-52773bd78001")
 	)
 	(fp_line
-		(start 1 -2.875)
+		(start -0.8 -2.875)
+		(end -1 -1.675)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2561b2c7-3053-489d-a71a-9c0b8dc2a0a9")
+	)
+	(fp_line
+		(start -0.8 -2.875)
+		(end 0.8 -2.875)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d1949aa0-c1f7-4c4f-8716-91e08682c683")
+	)
+	(fp_line
+		(start 0.8 -2.875)
 		(end 1 -1.675)
 		(stroke
-			(width 0.254)
+			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -127,7 +127,7 @@
 		(start 2.3 -1.675)
 		(end 2.3 -1.537)
 		(stroke
-			(width 0.254)
+			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -192,28 +192,28 @@
 		(uuid "f11f422d-3451-403b-a827-170cec3fa824")
 	)
 	(pad "1" smd rect
-		(at -2.3 -0.775)
-		(size 0.9 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "7f011459-6bff-4c6a-9294-147a6ec668ca")
-	)
-	(pad "2" smd rect
-		(at 2.3 -0.775 180)
-		(size 0.9 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "108c9821-9fc3-4972-9525-bebae86ec41a")
-	)
-	(pad "3" smd rect
 		(at -1.675 0.6625 180)
 		(size 1.2 1.075)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "08a5428b-b002-419e-94bd-37683a58e139")
 	)
-	(pad "4" smd rect
+	(pad "2" smd rect
 		(at 1.675 0.6625 180)
 		(size 1.2 1.075)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "d933a511-a8d2-48db-85d8-ba6d39039bc2")
+	)
+	(pad "MP" smd rect
+		(at -2.3 -0.775)
+		(size 0.9 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7f011459-6bff-4c6a-9294-147a6ec668ca")
+	)
+	(pad "MP" smd rect
+		(at 2.3 -0.775 180)
+		(size 0.9 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "108c9821-9fc3-4972-9525-bebae86ec41a")
 	)
 	(model "${KIPRJMOD}/modules/packages3D/Button_Switch_SMD.3dshapes/TS24CA.step"
 		(offset
