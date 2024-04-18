@@ -1,0 +1,136 @@
+(footprint "Metal_Dome_Cross_7mm_Round"
+	(version 20240225)
+	(generator "pcbnew")
+	(generator_version "8.99")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6e767256-7a61-4ae3-b375-a584493c79ae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Metal_Dome_Cross_7mm_Round"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "200c7516-ca1f-42b5-9912-b0f89fb5aff5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Metal_Dome_Cross_7mm_Round"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "43e48d59-aa69-48b1-8459-0d09a6c72962")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "17897084-ee40-4f5d-998e-249631a1d8d3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1100c723-09f3-4c80-af99-3229161a2ddb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.5 0)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Eco1.User")
+		(uuid "f120f7ec-932a-448b-8990-bfd99d4dc04b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d9a96f0-f7b1-416d-b4e2-c4285198fd5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 -1.1)
+		(size 0.7 0.7)
+		(drill 0.41)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9460924a-4973-40a5-85e1-e3d795b0eb1b")
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 3.2 3.2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "d6e70273-9993-4535-95bd-28f2cac5dd67")
+	)
+	(pad "2" smd custom
+		(at 3.4 0)
+		(size 0.88 0.88)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_circle
+				(center -3.4 0)
+				(end 0 0)
+				(width 0.88)
+				(fill no)
+			)
+		)
+		(uuid "f4732d40-0ca0-4bae-8987-a669f9f77ec2")
+	)
+	(model "${KIPRJMOD}/modules/packages3D/Button_Switch_SMD.3dshapes/Metal_Dome_Cross_6mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1.1666 1.1666 1.1666)
+		)
+		(rotate
+			(xyz -90 0 45)
+		)
+	)
+)
