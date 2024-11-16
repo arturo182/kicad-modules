@@ -1,7 +1,7 @@
 (footprint "FH35C-17S-0.3SHW_Inverted"
-	(version 20240225)
+	(version 20230225)
 	(generator "pcbnew")
-	(generator_version "8.99")
+	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -2.6 0)
