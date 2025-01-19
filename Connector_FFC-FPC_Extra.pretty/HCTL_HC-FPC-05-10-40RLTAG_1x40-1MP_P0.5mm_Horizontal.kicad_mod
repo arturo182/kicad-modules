@@ -1,7 +1,7 @@
 (footprint "HCTL_HC-FPC-05-10-40RLTAG_1x40-1MP_P0.5mm_Horizontal"
-	(version 20240225)
+	(version 20230225)
 	(generator "pcbnew")
-	(generator_version "8.99")
+	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -3.1 0)

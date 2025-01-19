@@ -1,4 +1,4 @@
-(footprint "SW-SMD_L3.9-W3.0-P4.45" (version 20240225) (generator "pcbnew") (generator_version "8.99")
+(footprint "SW-SMD_L3.9-W3.0-P4.45" (version 20230225) (generator "pcbnew") (generator_version "8.0")
   (layer "F.Cu")
   (property "Reference" "REF**" (at 0 -2.5 0) (layer "F.SilkS")(uuid "e0155b10-00c4-496d-a44e-688c16b5badf")
     (effects (font (size 1 1) (thickness 0.15)))

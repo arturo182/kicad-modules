@@ -1,7 +1,7 @@
 (footprint "MYOUNG-MY-1632-03"
-	(version 20240225)
+	(version 20230225)
 	(generator "pcbnew")
-	(generator_version "8.99")
+	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -6.2 -6.6 45)

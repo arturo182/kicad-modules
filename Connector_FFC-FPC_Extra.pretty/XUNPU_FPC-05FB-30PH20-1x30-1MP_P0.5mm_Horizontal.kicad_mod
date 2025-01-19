@@ -1,7 +1,7 @@
 (footprint "XUNPU_FPC-05FB-30PH20-1x30-1MP_P0.5mm_Horizontal"
-	(version 20240225)
+	(version 20230225)
 	(generator "pcbnew")
-	(generator_version "8.99")
+	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 4.5 0)

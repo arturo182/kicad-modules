@@ -1,7 +1,7 @@
 (footprint "TQFP-48_7x7mm_QFN-48_6x6mm_P0.5mm"
-	(version 20240225)
+	(version 20230225)
 	(generator "pcbnew")
-	(generator_version "8.99")
+	(generator_version "8.0")
 	(layer "F.Cu")
 	(descr "TQFP, 48 Pin (https://www.jedec.org/system/files/docs/MS-026D.pdf var ABC), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 	(tags "TQFP QFP")

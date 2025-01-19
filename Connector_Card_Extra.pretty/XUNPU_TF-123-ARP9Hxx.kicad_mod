@@ -1,7 +1,7 @@
 (footprint "XUNPU_TF-123-ARP9Hxx"
-	(version 20240108)
+	(version 20230108)
 	(generator "pcbnew")
-	(generator_version "8.99")
+	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 7 2.25 -90)
